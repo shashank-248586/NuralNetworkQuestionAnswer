@@ -1,0 +1,79 @@
+1 What is deep learning, and how is it connected to artificial intelligence?
+ans - 
+Deep learning is a type of machine learning that uses artificial nural network to learn from data.
+Deep learning is also used for classify and distinguish of image data , video and graphics also.
+Whenever technology want's automation Deep learning concept comes. 
+As we want artificial intelligence that automate the decision making that's why deep learning connected with it.
+
+2 What is a neural network, and what are the different types of neural networks?
+ans-
+Nural network is machine learning model's that contain group of nural in it  layer by layer .
+Different types of nural network are
+	i- feed forward nural network
+	ii - convolutional nural network
+	iii - recurent nural network
+
+3 What is the mathematical structure of a neural network ?
+ans - 
+A nural network is consist of group of nural layer.
+a single nuran contain two parts one is summation part (dot product of input vector and waight ) and another part is 
+activation part(gives non-linearity to the output )
+
+4 What is an activation function, and why is it essential in neural ?
+ans 
+activation function gives non-linerarity to the output(summation part ) mean gives curvature using  a specific funtion 
+that can be relu, lekyrelu , tanh  , sigmoid etc
+
+5 Could you list some common activation functions used in neural networks ?
+some activation function's are relu, lekyrelu , tanh , sigmoid etc.
+
+6 What is a multilayer neural network ?
+ans-
+If a nural network contain two or more that two layer of nural then it call multilayer nural network .
+
+7 What is a loss function, and why is it crucial for neural network training ?
+ans -
+Loss fuction gives differ between actual label and predicted label to the nural network .
+Loss fuction playes main role in nural network . Because by loss function a nural network capable to train .
+Without loss funtion a nural network cannot be train .
+
+8 What are some common types of loss functions?
+ans-
+	i - mean squared error (for regression )
+	ii - binary crossentropy (for binary classification )
+	iii - categorical crossentropy (for multi class classification )
+9 How does a neural network learn?
+ans -At forword propagation it only calculate output but in back propogation optimizer funtion update the value's of
+weight's and bias of nural network .
+
+10 What is an optimizer in neural networks, and why is it necessary ?
+ans- 
+Optimizer optimize (minimize ) the loss function (difference between actual label and predicted label)and changes the value's of 
+weight's and bias of a nural network and bring these values to a optinum point .
+It is neccessry because at the initial  time the weight and bias are randomly initialized .And optimizer can set these values
+at a optimum point at trainig time so that at prediction  the model predict right.
+
+11 Could you briefly describe some common optimizers ?
+ans 
+	 i - adam
+	ii - rmsprop
+	iii - stochatic gradient descent
+12 Can you explain forward and backward propagation in a neural network?
+In forwarn propagation at each layer the input vector is multiplyed with bias and passing through activation funtion .
+But at backword propagation  loss is calculated at the output layer and by optimizer all the weight's and bias are 
+update (to set the optimum value ) there value .
+One forward propagation and one backword propagation is one epoch.
+
+13 What is weight initialization, and how does it impact training ?
+ans 
+At begning of training what value contain the weight's and bias are called weight initializatioin .
+if we set random weight's then for riching optimum value of these weight's more time may taken.
+
+14 What is the vanishing gradient problem in deep learning ?
+ans
+At the time of backword propagation if the value of gradient tends to zero then no value updation occuration.
+
+15What is the exploding gradient problem?
+ans -
+At the time of backword propagation if the value of gradient is very large  then significantly large value differ in 
+update value of ans weigh .
